@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#776A5B</color>
+    <color name="colorPrimaryDark">#494543</color>
+    <color name="colorAccent">#FBE5C6</color>
+
+    <color name="externalTextColor">#FBE5C6</color>
+    <color name="externalBorderColor">#494543</color>
+    <color name="middleTextColor">#FBE5C6</color>
+    <color name="middleBorderColor">#776A5B</color>
+</resources>

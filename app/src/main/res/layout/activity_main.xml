@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/backgroundConstraintLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    tools:context=".Activities.MainActivity">
+
+    <View
+        android:background="@color/colorAccent"
+        android:layout_width="5dp"
+        android:layout_height="match_parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:text="1945"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:rotation="270"
+        android:gravity="end"
+        android:layout_marginBottom="32dp"
+        android:textColor="@color/colorPrimary"
+        android:alpha="0.3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:text="1945"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:rotation="90"
+        android:gravity="end"
+        android:layout_marginTop="@dimen/big_big_margin"
+        android:textColor="@color/colorPrimary"
+        android:alpha="0.3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <pe.edu.upc.testfree.Widgets.RoundedComponentView
+        android:id="@+id/element1RoundedTextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:externalBorderColor="@color/externalBorderColor"
+        app:externalTextColor="@color/externalTextColor"
+        app:middleBorderColor="@color/middleBorderColor"
+        app:middleTextColor="@color/middleTextColor"
+        app:centerY="1100"
+        app:externalRadius="130"
+        app:middleRadius="95"
+        app:externalBorderSize="38"
+        app:middleBorderSize="32"
+        app:externalTextSize="18"
+        app:middleTextSize="11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <pe.edu.upc.testfree.Widgets.RoundedComponentView
+        android:id="@+id/element2RoundedTextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:externalBorderColor="@color/externalBorderColor"
+        app:externalTextColor="@color/externalTextColor"
+        app:middleBorderColor="@color/middleBorderColor"
+        app:middleTextColor="@color/middleTextColor"
+        app:centerY="700"
+        app:externalRadius="130"
+        app:middleRadius="95"
+        app:externalBorderSize="38"
+        app:middleBorderSize="32"
+        app:externalTextSize="18"
+        app:middleTextSize="11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <pe.edu.upc.testfree.Widgets.RoundedComponentView
+        android:id="@+id/element3RoundedTextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:externalBorderColor="@color/externalBorderColor"
+        app:externalTextColor="@color/externalTextColor"
+        app:middleBorderColor="@color/middleBorderColor"
+        app:middleTextColor="@color/middleTextColor"
+        app:centerY="300"
+        app:externalRadius="130"
+        app:middleRadius="95"
+        app:externalBorderSize="38"
+        app:middleBorderSize="32"
+        app:externalTextSize="18"
+        app:middleTextSize="11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

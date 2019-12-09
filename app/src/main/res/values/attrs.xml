@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RoundedComponentView">
+        <attr name="centerX" format="integer"/>
+        <attr name="centerY" format="integer"/>
+        <attr name="externalRadius" format="float"/>
+        <attr name="middleRadius" format="float"/>
+
+        <attr name="externalGapTextBorder" format="integer"/>
+        <attr name="middleGapTextBorder" format="integer"/>
+
+        <attr name="externalBorderSize" format="float"/>
+        <attr name="middleBorderSize" format="float"/>
+
+        <attr name="externalTextSize" format="float"/>
+        <attr name="middleTextSize" format="float"/>
+
+        <attr name="externalGapBetweenLetters" format="float"/>
+        <attr name="middleGapBetweenLetters" format="float"/>
+
+        <attr name="externalTextColor" format="color"/>
+        <attr name="externalBorderColor" format="color"/>
+        <attr name="middleTextColor" format="color"/>
+        <attr name="middleBorderColor" format="color"/>
+    </declare-styleable>
+</resources>
